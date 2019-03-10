@@ -1,5 +1,5 @@
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI('8ae75405fee04ac4894375d280458eff');
+const newsapi = new NewsAPI(YOUR_API_KEY);
 
 function topHeadlines(q){
     return new Promise( (res,rej) => {
